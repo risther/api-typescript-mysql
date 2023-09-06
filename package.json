@@ -7,6 +7,7 @@
     "dev": "nodemon ./src/app.ts",
     "start": "node ./dist/app.js  ",
     "heroku-postbuild": "npm install -g typescript",
+    "heroku config":"set DATABASE_IP=104.154.217.250",
     "build": "tsc"
   },
   "keywords": [],
